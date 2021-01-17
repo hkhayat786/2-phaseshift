@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family:'roboto',sans-serif;
+}
+/* intro area starts here */
+
+.intro{
+    color: rgb(255, 255, 255);
+    margin-top: 150px;
+    width: 75%;
+    margin: 0 auto;
+}
+.intro h3{
+    font-size:20px;
+    line-height: 30px;
+    font-weight: 100;
+    margin-top: 120px;
+}
+.intro h3 a {
+    color: white;
+    text-decoration: underline;
+}
+.intro button{
+    background-color:rgb(209, 53, 131);
+    border: 0;
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+}
+/* intro area ends here */
+/* three image section starts here*/
+.three-section{
+    background-color: #fff;
+}
+.three-section img{
+    width: 100%;
+}
+.up-area{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.three-section p{
+    font-size: 12px;
+    line-height: 25px;
+    text-align: justify;
+    padding: 20px;
+    text-align: center;
+}
+.three-section button{
+    width: 110px;
+    height: 40px;
+    background-color: rgb(209, 53, 131);
+    border: 0;
+    color: #fff;
+    margin-bottom: 50px;  
+}
+/*three image section ends here*/
+/* two secion area starts here*/
+.two-section {
+    color: #fff;
+    margin-top: 50px;
+}
+.box .fa{
+    font-size: 25px;
+    padding: 20px 20px 20px 0;
+}
+.box h3{
+    font-size: 28px;
+    margin:0;
+}
+.box p{
+    font-size: 13px;
+    line-height: 25px;
+    margin-left: 50px;
+    
+}
+
+/*two section area ends here */
+/* pink box area starts here */
+.pink-box{
+    background-color: #d84780;
+    padding: 50px 0;
+    margin-top: 50px;
+}
+.pink-box h2, .pink-box p{
+    color: #fff;
+}
+.pink-box input{
+    width: 80%;
+    margin: 0 auto;
+}
+textarea{
+    width: 80%;
+    height: 120px;
+    margin-top: 10px;
+    border: 0;
+}
+.filter{
+    background: none;
+    border:2px solid white;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+/* pink box area ends here*/
+
+/* footer area starts here*/
+.footer{
+    background-color: black;
+    padding: 50px 0;
+    color: rgb(121, 121, 121);
+}
+.footer p{
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0;
+}
+.footer  .fa{ 
+    font-size: 24px;
+    padding: 6px 10px 6px 10px;
+    margin: 0 10px;
+    border-radius:100% ;
+    border: 1px solid rgb(85, 85, 85);
+}
+.footer .lightness{
+    color: rgb(90, 90, 90);
+}
+
+/*footer area ends here */
+
+/*media query starts here */
+@media only screen and (max-width: 768px){
+    .three-section{
+        margin: 20px 0;
+    }
+    .up-area{
+        margin-bottom: 0;
+    }
+}
+
+/*media query ends here */
